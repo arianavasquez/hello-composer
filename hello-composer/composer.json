@@ -1,0 +1,22 @@
+{
+    "name": "ourcodeworld/hello-composer",
+    "description": "My first packagist package",
+    "type": "package",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Ariana",
+            "email": "arianasarita.vasquez@gracia.lasalle.cat",
+            "homepage": "http://electrifred.com/juegosvarios/Pesta%c3%b1as/Inicio.html"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "ourcodeworld\\HelloComposer\\": "src/"
+        }
+    }
+}
